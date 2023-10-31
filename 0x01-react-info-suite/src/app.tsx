@@ -1,10 +1,14 @@
 import React from "react";
-import "./style.css";
+import "./style.scss";
+
+import Navbar from "./components/Navbar";
+import Main from "./components/Main";
 
 export default function App() {
   return (
-    <div className="container">
-      <h1>HELLO From Component</h1>
+    <div className="main_container">
+      <Navbar />
+      <Main />
     </div>
   );
 }
