@@ -1,0 +1,26 @@
+.nav {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-txt-color);
+
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__title {
+    color: var(--secondary-txt-color);
+    margin-left: 1rem;
+  }
+
+  &__logo {
+    height: 40px;
+    width: 40px;
+  }
+
+  &__info {
+    margin-left: auto;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--tertiary-txt-color);
+  }
+}
