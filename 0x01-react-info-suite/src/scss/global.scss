@@ -14,3 +14,9 @@
   --primary-bg-color: #21222a;
   --secondary-bg-color: #282d35;
 }
+
+.main_container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
