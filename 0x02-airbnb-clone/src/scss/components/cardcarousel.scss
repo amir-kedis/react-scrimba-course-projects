@@ -1,0 +1,7 @@
+.cardcarousel {
+  &__container {
+    display: flex;
+    width: var(--container-width);
+    margin: 0 auto;
+  }
+}

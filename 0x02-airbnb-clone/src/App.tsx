@@ -2,14 +2,14 @@ import "./main.scss";
 
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import data from "./data.ts";
+import CardCarousel from "./components/CardCarousel";
 
 function App() {
-  console.log(data);
   return (
     <div className="main-container">
       <Navbar />
       <Hero />
+      <CardCarousel />
     </div>
   );
 }
