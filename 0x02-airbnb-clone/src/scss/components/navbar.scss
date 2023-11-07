@@ -1,0 +1,15 @@
+.navbar {
+  padding: 2rem;
+  box-shadow: var(--drob-shadow);
+
+  &__container {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  &__img {
+    width: 100px;
+  }
+}
