@@ -3,5 +3,11 @@
     display: flex;
     width: var(--container-width);
     margin: 0 auto;
+    overflow-x: scroll;
+    gap: 1rem;
+
+    > div {
+      flex: 0 0 40%;
+    }
   }
 }
